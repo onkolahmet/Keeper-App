@@ -31,6 +31,7 @@ https://stormy-dusk-01415.herokuapp.com .
 
 ## To Use Locally
 1. Clone local branch $ git clone -b local https://github.com/onkolahmet/Keeper-App.
-2. Run 'npm install' in root folder.
-3. Run 'nodemon server.js' in root folder.
+2. Run 'npm install' in client folder. 
+3. Run 'npm install' in root folder.
+4. Run 'npm run dev' in root folder.
 
