@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eee;
+  background-color: #004f8c;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #fbeec1;
+}
+
+.fullPage {
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.listArea {
+  padding-bottom: 50px;
+}
+
+.note {
+  background: #1f2833;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #adadad;
+  padding: 10px;
+  width: 100%;
+  margin: 16px;
+  float: left;
+  position: relative;
+}
+
+.note h1 {
+  color: #fbeec1;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  color: #fbeec1;
+  font-size: 1.1em;
+  margin-bottom: 35px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+  float: right;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.textSpace {
+  background-color: #1f2833;
+  color: #fbeec1;
+}
+
+.noteEdit {
+  position: absolute;
+  right: 40px;
+  bottom: 11px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #f5ba13;
+  cursor: pointer;
+}
+
+.addNoteDiv {
+  margin: -15px;
+  padding: 15px;
+  background: #f5ba13;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #88bdbc;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-note input {
+  font-weight: bold;
+}
+
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.editModal {
+  position: absolute !important;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.editModal:focus {
+  outline: none;
+}
+
+.timeEdit {
+  font-size: 0.8rem;
+  color: #1f2833;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#fbeec1;
+  opacity: 1; /* Firefox */
+}
+
+@media only screen and (max-width: 500px) {
+  .editModal {
+    width: 90% !important;
+  }
+}
+
+form.create-note button:hover {
+  background: #1f2833;
+  }
