@@ -1,5 +1,5 @@
 # Keeper-App
-- Scope of this app was to be more familiar with how to use MERN stack as a full stack web application along with usage of CRUD.
+- The scope of this application was to be familiar with how to use MERN stack and CRUD while building a full stack web application.
 
 ![what-is-mern-stack-architecture](https://user-images.githubusercontent.com/62245004/98396310-99937000-206e-11eb-9ad1-4799d58e8699.png)
 
