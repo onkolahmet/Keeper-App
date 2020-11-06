@@ -22,7 +22,7 @@ https://stormy-dusk-01415.herokuapp.com .
   - A note schema holds title and content fields.
 - For the frontend i used [React.js](https://en.reactjs.org) library to design the client side of the application.
 - React hooks especially [useState](https://en.reactjs.org/docs/hooks-reference.html#usestate), [useEffect](https://en.reactjs.org/docs/hooks-reference.html#useeffect) and [useRef](https://en.reactjs.org/docs/hooks-reference.html#useref) are used to increase effectiveness of the application through maintaining(useState), refreshing(useEffect) and reassigning(useRef) amongst component states.
-- For deploying the app to [Heroku](https://devcenter.heroku.com), [I used this article.](https://www.freecodecamp.org/news/deploying-a-mern-application-using-mongodb-atlas-to-heroku).
+- For deploying the app to [Heroku](https://devcenter.heroku.com), [I followed this article.](https://www.freecodecamp.org/news/deploying-a-mern-application-using-mongodb-atlas-to-heroku).
 
 ## Resources I Follow Up
 - [Easiest Way to Connect a React Frontend with Node.js](https://medium.com/zero-equals-false/how-to-connect-a-react-frontend-with-node-js-bccb1fb7e2bb).
