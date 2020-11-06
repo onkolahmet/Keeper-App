@@ -1,5 +1,7 @@
 # Keeper-App
-- Scope of this app was to be more familiar with how to use MERN stack as a full stack web application and how to use CRUD
+- Scope of this app was to be more familiar with how to use MERN stack as a full stack web application and how to use CRUD.
+
+![what-is-mern-stack-architecture](https://user-images.githubusercontent.com/62245004/98396310-99937000-206e-11eb-9ad1-4799d58e8699.png)
 
 ## What It Does ?
 - This app is similar to [Google Keep](https://keep.google.com). 
