@@ -9,3 +9,5 @@
 - Users can add notes as many as they wanted.
 - They can delete and edit the notes that are taken.
 - Additionally editing time will be recorded.
+
+![leeper](https://user-images.githubusercontent.com/62245004/98396854-761cf500-206f-11eb-918a-1c683518474c.png)
