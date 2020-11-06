@@ -28,3 +28,9 @@ https://stormy-dusk-01415.herokuapp.com .
 - [Easiest Way to Connect a React Frontend with Node.js](https://medium.com/zero-equals-false/how-to-connect-a-react-frontend-with-node-js-bccb1fb7e2bb).
 - [Code splitting](https://en.reactjs.org/docs/code-splitting.html).
 - [React Hooks: How to use useEffect()](https://medium.com/javascript-in-plain-english/react-hooks-how-to-use-useeffect-ecea3e90d84f).
+
+## To Use Locally
+1. Clone local branch $ git clone -b local https://github.com/onkolahmet/toDoList-App.
+2. Run 'npm install' in root folder.
+3. Run 'nodemon server.js' in root folder.
+
