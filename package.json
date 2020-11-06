@@ -1,0 +1,28 @@
+{
+  "name": "keeper",
+  "version": "1.0.0",
+  "description": "Keeper - A note taking app",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently -n \"server,client\" -c \"red,green\" \"nodemon server.js\" \"npm run client\"",
+    "heroku-postbuild": "npm run client-install && npm run build"
+  },
+  "author": "Hannah Davydova",
+  "license": "ISC",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4"
+  }
+}
