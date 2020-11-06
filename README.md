@@ -15,7 +15,6 @@ https://stormy-dusk-01415.herokuapp.com .
 
 ![keeper](https://user-images.githubusercontent.com/62245004/98396762-4b32a100-206f-11eb-8cd3-99c85f3d452c.png)
 
-
 ## What I Have Used
 - For the backend server environment, I used [Node.js](https://nodejs.org) with [Express.js](https://expressjs.com) framework to design application layer.
 - For the persistence of data, I used [MongoDB](https://www.mongodb.com) as my database to store user's notes.
